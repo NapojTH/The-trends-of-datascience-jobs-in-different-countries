@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook original-version='18.1' source-build='2021.2.1 (20212.21.0712.0907)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='aus_pos' inline='true' name='federated.0zfmh600yijygi198onco1vft22e' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='aus_pos' name='textscan.1cn25vx1eehiv81724tl419nv3py'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:\Users\Gun_Sean\OneDrive\Desktop\R\Second semester\Fit 5147 project\Clean dataset\aus_pos.csv' dataRefreshTime='' directory='C:/Users/Gun_Sean/OneDrive/Desktop/R/Second semester/Fit 5147 project/Clean dataset' filename='C:/Users/Gun_Sean/AppData/Local/Temp/TableauTemp/1i1mv031bidvfn12uqwdf1rmb9kz/aus_pos.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1cn25vx1eehiv81724tl419nv3py' name='aus_pos.csv' table='[C:\Users\Gun_Sean\OneDrive\Desktop\R\Second semester\Fit 5147 project\Clean dataset\aus_pos#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:B8:no:A1:B8:0' header='yes' locale='th_TH' separator=','>
+            <column datatype='string' name='nation' ordinal='0' />
+            <column datatype='string' name='state' ordinal='1' />
+            <column datatype='integer' name='count' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1cn25vx1eehiv81724tl419nv3py' name='aus_pos.csv' table='[C:\Users\Gun_Sean\OneDrive\Desktop\R\Second semester\Fit 5147 project\Clean dataset\aus_pos#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:B8:no:A1:B8:0' header='yes' locale='th_TH' separator=','>
+            <column datatype='string' name='nation' ordinal='0' />
+            <column datatype='string' name='state' ordinal='1' />
+            <column datatype='integer' name='count' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[aus_pos.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;binary&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;฿&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B8:no:A1:B8:0&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;th_TH&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nation]</local-name>
+            <parent-name>[aus_pos.csv]</parent-name>
+            <remote-alias>nation</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aus_pos.csv_98F59E9B6A564E5B9C3B4CDB16BD1E4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[aus_pos.csv]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aus_pos.csv_98F59E9B6A564E5B9C3B4CDB16BD1E4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[count]</local-name>
+            <parent-name>[aus_pos.csv]</parent-name>
+            <remote-alias>count</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aus_pos.csv_98F59E9B6A564E5B9C3B4CDB16BD1E4E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='aus_pos.csv' datatype='table' name='[__tableau_internal_object_id__].[aus_pos.csv_98F59E9B6A564E5B9C3B4CDB16BD1E4E]' role='measure' type='quantitative' />
+      <column datatype='string' name='[nation]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Thailand&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='aus_pos.csv' id='aus_pos.csv_98F59E9B6A564E5B9C3B4CDB16BD1E4E'>
+            <properties context=''>
+              <relation connection='textscan.1cn25vx1eehiv81724tl419nv3py' name='aus_pos.csv' table='[C:\Users\Gun_Sean\OneDrive\Desktop\R\Second semester\Fit 5147 project\Clean dataset\aus_pos#csv]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:B8:no:A1:B8:0' header='yes' locale='th_TH' separator=','>
+                  <column datatype='string' name='nation' ordinal='0' />
+                  <column datatype='string' name='state' ordinal='1' />
+                  <column datatype='integer' name='count' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='aus_pos (2)' inline='true' name='federated.02uzs6i03ytfn90znmdpy00vhs82' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='aus_pos' name='textscan.16ou8z01uje3591bq7gfg0vcydk2'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:\Users\Gun_Sean\OneDrive\Desktop\R\Second semester\Fit 5147 project\Clean dataset\aus_pos.csv' dataRefreshTime='' directory='C:/Users/Gun_Sean/OneDrive/Desktop/R/Second semester/Fit 5147 project/Clean dataset' filename='C:/Users/Gun_Sean/AppData/Local/Temp/TableauTemp/1i1mv031bidvfn12uqwdf1rmb9kz/aus_pos.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.16ou8z01uje3591bq7gfg0vcydk2' name='aus_pos.csv' table='[C:\Users\Gun_Sean\OneDrive\Desktop\R\Second semester\Fit 5147 project\Clean dataset\aus_pos#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:C8:no:A1:C8:1' header='yes' locale='th_TH' separator=','>
+            <column datatype='string' name='nation' ordinal='0' />
+            <column datatype='string' name='state' ordinal='1' />
+            <column datatype='integer' name='count' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.16ou8z01uje3591bq7gfg0vcydk2' name='aus_pos.csv' table='[C:\Users\Gun_Sean\OneDrive\Desktop\R\Second semester\Fit 5147 project\Clean dataset\aus_pos#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:C8:no:A1:C8:1' header='yes' locale='th_TH' separator=','>
+            <column datatype='string' name='nation' ordinal='0' />
+            <column datatype='string' name='state' ordinal='1' />
+            <column datatype='integer' name='count' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[aus_pos.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;binary&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;฿&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C8:no:A1:C8:1&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;th_TH&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nation]</local-name>
+            <parent-name>[aus_pos.csv]</parent-name>
+            <remote-alias>nation</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aus_pos.csv_BFE86FBE375049BF931B8A2E4870FB5C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[aus_pos.csv]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aus_pos.csv_BFE86FBE375049BF931B8A2E4870FB5C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[count]</local-name>
+            <parent-name>[aus_pos.csv]</parent-name>
+            <remote-alias>count</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aus_pos.csv_BFE86FBE375049BF931B8A2E4870FB5C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='aus_pos.csv' datatype='table' name='[__tableau_internal_object_id__].[aus_pos.csv_BFE86FBE375049BF931B8A2E4870FB5C]' role='measure' type='quantitative' />
+      <column datatype='string' name='[nation]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Thailand&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='aus_pos.csv' id='aus_pos.csv_BFE86FBE375049BF931B8A2E4870FB5C'>
+            <properties context=''>
+              <relation connection='textscan.16ou8z01uje3591bq7gfg0vcydk2' name='aus_pos.csv' table='[C:\Users\Gun_Sean\OneDrive\Desktop\R\Second semester\Fit 5147 project\Clean dataset\aus_pos#csv]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:C8:no:A1:C8:1' header='yes' locale='th_TH' separator=','>
+                  <column datatype='string' name='nation' ordinal='0' />
+                  <column datatype='string' name='state' ordinal='1' />
+                  <column datatype='integer' name='count' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='18'>Distribution of Job Posts in Australia Based on States</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='aus_pos' name='federated.0zfmh600yijygi198onco1vft22e' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0zfmh600yijygi198onco1vft22e'>
+            <column datatype='integer' name='[count]' role='measure' type='quantitative' />
+            <column datatype='string' name='[nation]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[nation]' derivation='None' name='[none:nation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[count]' derivation='Sum' name='[sum:count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0zfmh600yijygi198onco1vft22e].[Longitude (generated)]' field-type='quantitative' max='17098784.874327928' min='12570307.954885546' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0zfmh600yijygi198onco1vft22e].[Latitude (generated)]' field-type='quantitative' max='-1203088.1800890304' min='-5404824.3528471775' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0zfmh600yijygi198onco1vft22e].[sum:count:qk]' num-steps='5' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d4dbe5</color>
+                <color>#bac7d9</color>
+                <color>#a1b3cd</color>
+                <color>#89a1c2</color>
+                <color>#7490b6</color>
+                <color>#607faa</color>
+                <color>#4e709f</color>
+                <color>#3d6193</color>
+                <color>#2f5487</color>
+                <color>#22487c</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='font-size' value='14' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='font-size' value='14' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0zfmh600yijygi198onco1vft22e].[sum:count:qk]' value='Job Posts' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='admin-0-boundaries-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-bg-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute-sub' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents' value='false' />
+            <format attr='enabled' id='admin1-water-lines-usa-tableau' value='false' />
+            <format attr='enabled' id='9-dash-line-casing' value='false' />
+            <format attr='enabled' id='9-dash-line' value='false' />
+            <format attr='enabled' id='admin-1-label-9th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-8th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-7th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-6th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-1st-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-3rd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-2nd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-1st-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-1st-tier' value='false' />
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='light' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.0zfmh600yijygi198onco1vft22e].[sum:count:qk]' />
+              <text column='[federated.0zfmh600yijygi198onco1vft22e].[none:state:nk]' />
+              <lod column='[federated.0zfmh600yijygi198onco1vft22e].[none:nation:nk]' />
+              <geometry column='[federated.0zfmh600yijygi198onco1vft22e].[Geometry (generated)]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='10'>&lt;</run>
+                <run bold='true' fontsize='10'>[federated.0zfmh600yijygi198onco1vft22e].[none:state:nk]</run>
+                <run bold='true' fontsize='10'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0zfmh600yijygi198onco1vft22e].[Latitude (generated)]</rows>
+        <cols>[federated.0zfmh600yijygi198onco1vft22e].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{330C2926-8DDB-48D4-8C6F-095E6E9AB133}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0zfmh600yijygi198onco1vft22e].[sum:count:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0zfmh600yijygi198onco1vft22e].[none:nation:nk]</field>
+            <field>[federated.0zfmh600yijygi198onco1vft22e].[none:state:nk]</field>
+          </color-one-way>
+        </highlight>
+        <floating-toolbar-visibility value='1' />
+        <map-navigation value='1' />
+      </viewpoint>
+      <simple-id uuid='{934151DC-6CE4-41DF-A01F-7122DE729790}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      gg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
