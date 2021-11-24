@@ -1,4 +1,4 @@
-# The-trends-of-datascience-jobs-in-different-countries (This project is my own project created as a part of FIT5147 Data Visualisation and Exploration unit)
+# The-trends-of-datascience-jobs-in-different-countries (This project is my own project created as a part of FIT5147 Data Exploration and Visualisation unit)
 
 
 ## Introduction and Motivation:
