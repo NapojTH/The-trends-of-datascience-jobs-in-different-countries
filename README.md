@@ -1,8 +1,5 @@
 # The-trends-of-datascience-jobs-in-different-countries (This project is my own project created as a part of FIT5147 Data Visualisation and Exploration unit)
 
-### Here is a link to an interactive visualisation dashboard of the project:
-
-
 
 ## Introduction and Motivation:
 As an individual who start a journey in a data science field, I am interest in finding out about the trend of data 
@@ -134,7 +131,15 @@ These are the visualisations of the skill set required for data science job in e
  
 Based on these visualisations, it seems that Python is the most in demand skill in data science job for Australia and USA, while C is the highest on demand skill in UK. For Australia and USA, the second on demand skill is SQL but this is not the case in UK which demand python as the second highest on demand skill. For the third highest on demand skill, they varied differently in these three countries; for example, Australia require SAS as the third highest on demand skill, whereas USA demand excel skill and UK demand SQL. For the rest of the skills, it seem that Tableau,Java, Excel and Spark are on demand for these three countries. At the same time, there is some unique skills require differently in each country. For example, AWS and Scala did not appear as top ten on demand skill for Australia, while R and Matlab did not appear in USA and UK. Also, Hadoop and SAS only on demand in Australia and USA but not UK, and javascript is on demand only in UK.
 
+Once all the questions have been answered, the interactive dashboard of the finding will be created as the following below:
 
+![Data Science Job Trends - Google Chrome 24_11_2021 21_05_09](https://user-images.githubusercontent.com/67892412/143253308-ad2ea6f6-16bf-4396-b279-fcd6462d7c41.png)
+![Data Science Job Trends - Google Chrome 24_11_2021 21_05_20](https://user-images.githubusercontent.com/67892412/143253331-d82d0a3e-04fd-45ec-afc5-6b648daaebee.png)
+![Data Science Job Trends - Google Chrome 24_11_2021 21_05_37](https://user-images.githubusercontent.com/67892412/143253356-c832ac1a-9f05-4e37-ad45-fee5006dd278.png)
+
+Here is the vdo explaning on how to use these visualisation:
+
+https://youtu.be/c8VP3rZ6IXY
 
 ## Conclusion
 From the result of data visualisation and analysis, it seems that data scientist is the most popular career in demand for Australia and USA in 2021. In contrast, the other data science related jobs are the most demand job in UK. Regarding the first question answer, it may have an effect on the trend of skill as well. For example, C is the most in demand skill in UK, while python is the most wanted skill for data science job. Also, the result of the regression model can be improve if I have apply 
@@ -149,8 +154,6 @@ suitaible statistical method (outlier detection) the result may be more signific
 ![Data Exploration - Word 24_11_2021 20_03_36](https://user-images.githubusercontent.com/67892412/143244172-0d577e32-7a33-4de8-a2ff-4393a69c1867.png)
 ![Data Exploration - Word 24_11_2021 20_03_41](https://user-images.githubusercontent.com/67892412/143244287-784b1594-e756-4612-8172-53d90a52b620.png)
 ![Data Exploration - Word 24_11_2021 20_03_45](https://user-images.githubusercontent.com/67892412/143244480-449f902e-4343-4c66-b90a-9fb1320aaa60.png)
-
-
 
 
 ## References
