@@ -22,14 +22,13 @@ All of the dataset will be used for answering all of the questions above by comb
 
 ### Description of Data Sources:
 • Tabular Data (csv file): 1458 rows x 52 columns, the dataset is provided with geospatial/location data and 
-textual format data. 
-(https://www.kaggle.com/nomilk/data-science-job-listings-australia20192020?select=listings2021.csv).
+textual format data. (https://www.kaggle.com/nomilk/data-science-job-listings-australia20192020?select=listings2021.csv).
+
 • Tabular Data (csv file): 661 rows x 27 columns, the dataset is provided with geospatial/location data and 
-textual format data. 
-(https://www.kaggle.com/rashikrahmanpritom/data-science-job-posting-onglassdoor?select=Cleaned_DS_Jobs.csv)
+textual format data. (https://www.kaggle.com/rashikrahmanpritom/data-science-job-posting-onglassdoor?select=Cleaned_DS_Jobs.csv)
+
 • Tabular Data (csv file): 596 rows x 14 columns, the dataset is provided with geospatial/location data and 
-textual format data. 
-(https://www.kaggle.com/devario/uk-data-science-jobs-dataset
+textual format data. (https://www.kaggle.com/devario/uk-data-science-jobs-dataset)
 
 This project's questions will be answered by the combination of data exploration, data visualization and data analysis on the 
 job list dataset via Python, R, Microsoft Excel, and Tableau
