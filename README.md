@@ -37,15 +37,15 @@ Here are the sections describing the procedure of making this project:
 
 ## Data Wrangling/ Data Cleaning and Pre-processing
 This project is involved with these following datasets:
-A.	Data Science Job Listings - Australia - 2019-2021 from Seek.com.au; 
-Tabular Data (csv file): 1458 rows x 52 columns, the dataset is provided with geospatial/location data and textual format data. (https://www.kaggle.com/nomilk/data-science-job-listings-australia20192020?select=listings2021.csv).
-B.	Data Science Job Posting on Glassdoor;
-Tabular Data (csv file): 661 rows x 27 columns, the dataset is provided with geospatial/location data and textual format data. (https://www.kaggle.com/rashikrahmanpritom/data-science-job-posting-on-glassdoor?select=Cleaned_DS_Jobs.csv)
-C.	UK Data Science Jobs dataset;
-Tabular Data (csv file): 596 rows x 14 columns, the dataset is provided with geospatial/location data and textual format data. (https://www.kaggle.com/devario/uk-data-science-jobs-dataset)
+A. Data Science Job Listings - Australia - 2019-2021 from Seek.com.au; Tabular Data (csv file): 1458 rows x 52 columns, the dataset is provided with geospatial/location data and textual format data. (https://www.kaggle.com/nomilk/data-science-job-listings-australia20192020?select=listings2021.csv).
+
+B. Data Science Job Posting on Glassdoor; Tabular Data (csv file): 661 rows x 27 columns, the dataset is provided with geospatial/location data and textual format data. (https://www.kaggle.com/rashikrahmanpritom/data-science-job-posting-on-glassdoor?select=Cleaned_DS_Jobs.csv)
+
+C. UK Data Science Jobs dataset; Tabular Data (csv file): 596 rows x 14 columns, the dataset is provided with geospatial/location data and textual format data. (https://www.kaggle.com/devario/uk-data-science-jobs-dataset)
+
 Tools for Data Wrangling:
-1.	Python
-2.	Microsoft Excel
+1. Python
+2. Microsoft Excel
 
 ### Data Wrangling Step:
 Step 1: Select all the relevant data column within each dataset for answering the above question.
